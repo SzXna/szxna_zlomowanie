@@ -60,7 +60,6 @@ Citizen.CreateThread(function()
 							if IsControlJustReleased(0, Keys['E']) then
 								ESX.ShowNotification("Pojazd został ~y~zezłomowany")
 								TriggerServerEvent('szxna_zlomowanie:svo', vehicleProps)
-								--TriggerServerEvent('szxna_zlomowanie:removedb', source)
 								ESX.Game.DeleteVehicle(vehicle)
 							end
 						else

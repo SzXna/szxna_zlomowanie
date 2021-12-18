@@ -36,5 +36,5 @@ function sendtodiscord(status, message)
 				}
 		}
 	}
-		PerformHttpRequest(config.discordwebhook, function(err, headers) end, 'POST', json.encode({ embeds = embed, content = ''}), { ['Content-Type'] = 'application/json' })
+		PerformHttpRequest(wh, function(err, headers) end, 'POST', json.encode({ embeds = embed, content = ''}), { ['Content-Type'] = 'application/json' })
 end
